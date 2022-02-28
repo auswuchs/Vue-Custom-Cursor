@@ -1,20 +1,3 @@
-# Custom cursor in Vue 3 with GSAP
-
-
-Change the mouse cursor in Vue 3 with custom typescript cursor component.
-
-## Necessary dependencies
-
-First of all install GSAP via npm:
-
-```
-npm i gsap
-```
-
-## Custom cursor component
-Code of file CustomCursor.vue:
-
-```
 <template>
   <div class="custom-cursor">
     <div class="cursor-big custom-cursor__ball custom-cursor__ball--big "></div>
@@ -100,39 +83,3 @@ onMounted(() => {
     }
   }
 </style>
-```
-
-## Import to App.vue
-
-
-```
-<template>
-  <Custom-Cursor />
-</template>
-```
-
-## Pass some optional props
-#### **`hoverClass`** defines the elements on what the cursor should respond to.
-
-```
-<template>
-  <Custom-Cursor hoverClass="on-hover"/>
-</template>
-```
-> Default `hoverClass` set to `"cursor-hover"`
-
-
-#### **`cursorColor`** defines cursor color.
-```
-<template>
-  <Custom-Cursor cursorColor="#FFFFFF"/>
-</template>
-```
-
-<template>
-  <Custom-Cursor cursorColor="rgb(255, 255, 255)"/>
-</template>
-```
-
-> Default `cursorColor` set to `"rgba(255, 255, 255, 0.22)"`
-

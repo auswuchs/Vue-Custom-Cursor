@@ -1,0 +1,23 @@
+{
+  "name": "custom-cursor",
+  "version": "1.0.0",
+  "description": "A custom cursor for vue/nuxt projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auswuchs/Vue-Custom-Cursor.git"
+  },
+  "keywords": [
+    "cursor",
+    "vue"
+  ],
+  "author": "auswuchs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auswuchs/Vue-Custom-Cursor/issues"
+  },
+  "homepage": "https://github.com/auswuchs/Vue-Custom-Cursor#readme"
+}
