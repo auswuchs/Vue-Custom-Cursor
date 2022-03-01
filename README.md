@@ -7,7 +7,7 @@ Change the mouse cursor in Vue 3 with custom typescript cursor component.
 
 First of all install GSAP via npm:
 
-```
+```sh
 npm i gsap
 ```
 
@@ -100,7 +100,7 @@ onMounted(() => {
 ## Import to App.vue
 
 
-```
+```vue
 <template>
   <Custom-Cursor />
 </template>
@@ -109,7 +109,7 @@ onMounted(() => {
 ## Pass some optional props
 #### **`hoverClass`** defines the elements on what the cursor should respond to.
 
-```
+```vue
 <template>
   <Custom-Cursor hoverClass="on-hover"/>
 </template>
@@ -118,12 +118,12 @@ onMounted(() => {
 
 
 #### **`cursorColor`** defines cursor color.
-```
+```vue
 <template>
   <Custom-Cursor cursorColor="#FFFFFF"/>
 </template>
 ```
-
+```vue
 <template>
   <Custom-Cursor cursorColor="rgb(255, 255, 255)"/>
 </template>
