@@ -30,7 +30,6 @@ const props = withDefaults(defineProps<{ hoverClass?: string, cursorColor?: stri
   cursorColor: 'rgba(255, 255, 255, 0.22)'
 })
 
-
 onMounted(() => {
   const cursorBig = document.querySelector('.cursor-big'),
     links = document.getElementsByTagName("a"),
@@ -38,7 +37,6 @@ onMounted(() => {
     withHover = [...links, ...withClassHover];
 
   cursorBig.style.backgroundColor = props.cursorColor
-
 
   document.addEventListener("mousemove", onMouseMove);
   document.addEventListener("mousedown", onMouseHover);
@@ -75,9 +73,6 @@ onMounted(() => {
 })
 
 </script>
-
-
-
 
 <style>
   @media screen and (min-width: 1100px) {
