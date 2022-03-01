@@ -14,7 +14,7 @@ npm i gsap
 ## Custom cursor component
 Code of file CustomCursor.vue:
 
-```
+```vue
 <template>
   <div class="custom-cursor">
     <div class="cursor-big custom-cursor__ball custom-cursor__ball--big "></div>
